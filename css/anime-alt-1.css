@@ -1,0 +1,72 @@
+html, body{
+	font-family: arial, sans-seriff;
+	margin: 0;
+}
+header{
+	background-color: #26004d;
+	background-image: url('../img/pixel-image-100.jpeg');
+	background-repeat: repeat;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+header img{
+	border-radius: 100px;
+	width: 300px;
+	border: 7px solid #d9f8;
+	box-shadow: 0 10px 20px black;
+}
+
+.content{
+	max-width: 530px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+background-color: gray;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0.5px;
+}
+/*<header>
+			<img src="img/profile.jpg">
+			<h1>Sucy Manbavaran</h1>
+		</header>*/
