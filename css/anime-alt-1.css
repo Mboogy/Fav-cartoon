@@ -3,8 +3,8 @@ html, body{
 	margin: 0;
 }
 header{
-	background-image: url('../img/pixel-image-100.jpeg');
 	background-color: #26004d;
+	background-image: url('../img/pixel-image-100.jpeg');
 	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;
@@ -50,6 +50,10 @@ ul{
 a{
 	color: red;
 	text-decoration: none;
+}
+
+a:hover{
+	background-color: #2A315E
 }
 
 footer{
